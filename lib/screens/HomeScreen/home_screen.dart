@@ -57,7 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: GestureDetector(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => MyCartScreen()));
+                    MaterialPageRoute(builder: (context) => const MyCartScreen()));
               },
               child: Image.asset(
                 bag,
@@ -67,13 +67,13 @@ class _HomeScreenState extends State<HomeScreen> {
           )
         ],
       ),
-      body: HomeScreenBody(),
+      body: const HomeScreenBody(),
       floatingActionButton: FloatingActionButton(
         shape: const CircleBorder(),
         splashColor: btncolor,
         onPressed: () {
           Navigator.push(
-              context, MaterialPageRoute(builder: (context) => MyCartScreen()));
+              context, MaterialPageRoute(builder: (context) => const MyCartScreen()));
         },
         backgroundColor: btncolor,
         child: Padding(

@@ -23,7 +23,7 @@ class EditProfile extends StatelessWidget {
           ),
         ],
       ),
-      body: EditProfileBody(),
+      body: const EditProfileBody(),
     );
   }
 }

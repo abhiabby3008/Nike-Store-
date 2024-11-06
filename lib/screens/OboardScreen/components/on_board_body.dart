@@ -65,7 +65,7 @@ class _OnBoardBodyState extends State<OnBoardBody> {
                   child: TextButton(
                     onPressed: () {
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => SignIn()));
+                          MaterialPageRoute(builder: (context) => const SignIn()));
                     },
                     child: Text(
                       "Get Started",

@@ -22,7 +22,7 @@ class SneakerShop extends StatelessWidget {
           )
         ],
       ),
-      body: SneakerShopBody(),
+      body: const SneakerShopBody(),
     );
   }
 }

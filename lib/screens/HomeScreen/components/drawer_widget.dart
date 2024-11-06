@@ -42,7 +42,7 @@ class DrawerWidet extends StatelessWidget {
             SizedBox(
               height: 30.h,
             ),
-            MenuWidget(
+            const MenuWidget(
               text: "Profile",
               navigation: ProfileScreen(),
               icon: Icons.person_2_outlined,
@@ -50,7 +50,7 @@ class DrawerWidet extends StatelessWidget {
             SizedBox(
               height: 30.h,
             ),
-            MenuWidget(
+            const MenuWidget(
               navigation: MyCartScreen(),
               text: "My Cart",
               icon: Icons.shopping_cart_outlined,
@@ -58,7 +58,7 @@ class DrawerWidet extends StatelessWidget {
             SizedBox(
               height: 30.h,
             ),
-            MenuWidget(
+            const MenuWidget(
               navigation: FavScreen(),
               text: "Favourite",
               icon: Icons.favorite_outline,
@@ -66,7 +66,7 @@ class DrawerWidet extends StatelessWidget {
             SizedBox(
               height: 30.h,
             ),
-            MenuWidget(
+            const MenuWidget(
                 navigation: MyCartScreen(),
                 text: "Orders",
                 icon: Icons.history_outlined),

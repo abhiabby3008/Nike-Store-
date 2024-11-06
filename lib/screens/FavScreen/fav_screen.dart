@@ -27,7 +27,7 @@ class FavScreen extends StatelessWidget {
           )
         ],
       ),
-      body: FavScreenBody(),
+      body: const FavScreenBody(),
       bottomNavigationBar: const Bottomnavbar(),
     );
   }

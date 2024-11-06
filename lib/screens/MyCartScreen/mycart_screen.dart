@@ -11,7 +11,7 @@ class MyCartScreen extends StatelessWidget {
         title: const Text('MyCartScreen'),
         centerTitle: true,
       ),
-      body: MyCartScreenBody(),
+      body: const MyCartScreenBody(),
     );
   }
 }

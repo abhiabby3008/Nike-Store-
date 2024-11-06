@@ -33,7 +33,7 @@ class HomeScreenBody extends StatelessWidget {
         SizedBox(
           height: 10.h,
         ),
-        CategorySelection(),
+        const CategorySelection(),
         SizedBox(
           height: 20.h,
         ),

@@ -8,7 +8,7 @@ class SignIn extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: SignInBody(),
+      body: const SignInBody(),
     );
   }
 }

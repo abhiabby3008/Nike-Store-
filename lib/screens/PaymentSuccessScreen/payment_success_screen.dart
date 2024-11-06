@@ -10,7 +10,7 @@ class PaymentSuccess extends StatelessWidget {
       appBar: AppBar(
         automaticallyImplyLeading: false,
       ),
-      body: PaymentSuccessBody(),
+      body: const PaymentSuccessBody(),
     );
   }
 }

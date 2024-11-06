@@ -11,7 +11,7 @@ class DetailsScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('DetailsScreen'),
       ),
-      body: DetailsScreenBody(),
+      body: const DetailsScreenBody(),
     );
   }
 }

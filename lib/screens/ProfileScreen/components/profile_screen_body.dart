@@ -32,7 +32,7 @@ class _ProfileScreenBodyState extends State<ProfileScreenBody> {
             GestureDetector(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => EditProfile()));
+                    MaterialPageRoute(builder: (context) => const EditProfile()));
               },
               child: Center(
                 child: Stack(
@@ -149,7 +149,7 @@ class _ProfileScreenBodyState extends State<ProfileScreenBody> {
             SizedBox(
               height: 30.h,
             ),
-            GlobalButton(
+            const GlobalButton(
               text: "Save Now",
               width: double.infinity,
               navigation: HomeScreen(),

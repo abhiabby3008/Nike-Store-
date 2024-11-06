@@ -1,7 +1,6 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:nike/cons/clr_cons.dart';
 import 'package:nike/cons/img_cons.dart';
@@ -18,7 +17,7 @@ class PaymentSuccessBody extends StatelessWidget {
         child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
       Stack(
         children: [
-          CheckOutBody(),
+          const CheckOutBody(),
           Positioned(
             top: 200.h,
             right: 30.w,
@@ -55,7 +54,7 @@ class PaymentSuccessBody extends StatelessWidget {
                               fontSize: 20.sp, fontWeight: FontWeight.w500),
                         ),
                         SizedBox(height: 20.h),
-                        GlobalButton(
+                        const GlobalButton(
                           navigation: HomeScreen(),
                           text: "Back to Shopping",
                         )

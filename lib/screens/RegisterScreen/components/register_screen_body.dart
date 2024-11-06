@@ -113,7 +113,7 @@ class _RegisterScreenBodyState extends State<RegisterScreenBody> {
             SizedBox(
               height: 12.h,
             ),
-            GlobalButton(
+            const GlobalButton(
               navigation: OTPScreen(),
               text: "Sign In",
               width: double.infinity,
@@ -158,7 +158,7 @@ class _RegisterScreenBodyState extends State<RegisterScreenBody> {
                 TextButton(
                     onPressed: () {
                       Navigator.of(context).push(
-                          MaterialPageRoute(builder: (context) => SignIn()));
+                          MaterialPageRoute(builder: (context) => const SignIn()));
                     },
                     child: Text(
                       "Login",

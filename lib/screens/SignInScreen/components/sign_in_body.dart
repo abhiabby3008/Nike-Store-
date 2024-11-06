@@ -107,7 +107,7 @@ class _SignInBodyState extends State<SignInBody> {
             SizedBox(
               height: 24.h,
             ),
-            GlobalButton(
+            const GlobalButton(
               navigation: OTPScreen(),
               text: "Sign In",
               width: double.infinity,
@@ -152,7 +152,7 @@ class _SignInBodyState extends State<SignInBody> {
                 TextButton(
                     onPressed: () {
                       Navigator.of(context).push(MaterialPageRoute(
-                          builder: (context) => RegisterScreen()));
+                          builder: (context) => const RegisterScreen()));
                     },
                     child: Text(
                       "Create Account",
