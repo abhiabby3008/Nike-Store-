@@ -38,7 +38,6 @@ class _OTPScreenBodyState extends State<OTPScreenBody> {
 
   @override
   void initState() {
-    // TODO: implement initState
     startTimer();
     super.initState();
   }
