@@ -87,7 +87,7 @@ class _OTPScreenBodyState extends State<OTPScreenBody> {
               fieldHeight: 70.h,
               numberOfFields: 4,
             ),
-            GlobalButton(
+            const GlobalButton(
               navigation: HomeScreen(),
               text: "Verify",
               width: double.infinity,
